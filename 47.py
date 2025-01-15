@@ -1,0 +1,5 @@
+set1 = set(input("Enter elements of first set separated by spaces: ").split())
+set2 = set(input("Enter elements of second set separated by spaces: ").split())
+print("Union:", set1 | set2)
+print("Intersection:", set1 & set2)
+print("Difference:", set1 - set2)
